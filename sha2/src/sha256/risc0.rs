@@ -1,4 +1,3 @@
-#[cfg(feature = "alloc")]
 extern crate alloc;
 
 use risc0_zkvm_platform::syscall::{sys_sha_buffer, DIGEST_WORDS};

@@ -32,8 +32,7 @@ hex-literal = "0.2.2"
 
 [features]
 default = ["std"]
-alloc = ["digest/alloc"]
-std = ["digest/std", "alloc"]
+std = ["digest/std"]
 oid = ["digest/oid"] # Enable OID support. WARNING: Bumps MSRV to 1.57
 asm = ["sha2-asm"] # WARNING: this feature SHOULD NOT be enabled by library crates
 compress = [] # Expose compress functions
