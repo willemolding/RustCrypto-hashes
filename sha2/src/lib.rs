@@ -51,6 +51,8 @@
 )]
 #![warn(missing_docs, rust_2018_idioms)]
 
+extern crate alloc;
+
 pub use digest::{self, Digest};
 
 #[cfg(feature = "oid")]
